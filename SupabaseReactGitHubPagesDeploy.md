@@ -41,9 +41,10 @@ _Этот пример изначально [взят из Supabase developers](
 
 ### 4. Получите URL-адрес и Ключ
 
-Go to the Project Settings (the cog icon), open the API tab, and find your API URL and `anon` key, you'll need these in the next step.
+Перейдите в настройки проекта (значок шестеренки), откройте вкладку API и найдите свой URL API и ключ `anon`, они понадобятся вам на следующем шаге.
 
-The `anon` key is your client-side API key. It allows "anonymous access" to your database, until the user has logged in. Once they have logged in, the keys will switch to the user's own login token. This enables row level security for your data. Read more about this [below](#postgres-row-level-security).
+
+Ключ `anon` - это ваш API-ключ на стороне клиента. Он обеспечивает "анонимный доступ" к вашей базе данных до тех пор, пока пользователь не выполнит вход в систему. Как только пользователь выполнит вход, ключи будут заменены на собственный токен входа пользователя. Это обеспечивает защиту ваших данных на уровне строк. Подробнее об этом читайте [ниже](#postgres-row-level-security).
 
 ![image](https://user-images.githubusercontent.com/10214025/88916245-528c2680-d298-11ea-8a71-708f93e1ce4f.png)
 
