@@ -48,16 +48,16 @@ _Этот пример изначально [взят из Supabase developers](
 
 ![image](https://user-images.githubusercontent.com/10214025/88916245-528c2680-d298-11ea-8a71-708f93e1ce4f.png)
 
-**_NOTE_**: The `service_role` key has full access to your data, bypassing any security policies. These keys have to be kept secret and are meant to be used in server environments and never on a client or browser.
+**_ПРИМЕЧАНИЯ_**: Ключ `service_role` предоставляет полный доступ к вашим данным в обход любых политик безопасности. Эти ключи должны храниться в секрете и предназначены для использования в серверных средах и никогда - на клиенте или в браузере.
 
-### 5. Configure the secrets (and environment variables)
+### 5. Настройте секреты (и переменные среды)
 
-In the previous steps, you created a Supabase project with a database, and you created a `profiles` table. You also got the URL and key for your project. These are now going to be provided as configuration to the project.
+На предыдущих шагах вы создали проект Supabase с базой данных и таблицу `profiles`. Вы также получили URL-адрес и ключ для вашего проекта. Теперь они будут предоставлены в качестве конфигурации для проекта.
 
 For cloud deployment: Create [encrypted secrets for your repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository), using the following names:
 
-- `REACT_APP_SUPABASE_URL` for the URL of your project.
-- `REACT_APP_SUPABASE_ANON_KEY` for the `anon` key of your project.
+- `REACT_APP_SUPABASE_URL` для URL вашего проекта.
+- `REACT_APP_SUPABASE_ANON_KEY` для ключа `anon` вашего проекта.
 
 ### 6. Turn on GitHub Pages
 
