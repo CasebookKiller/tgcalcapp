@@ -37,10 +37,9 @@ _Этот пример изначально [взят из Supabase developers](
 
 ### 3. Запустите "User Management" Quickstart (Быстрый запуск)
 
-Once your database has started, head over to your project's `SQL Editor` and run the "User Management Starter" quickstart. On the `SQL editor` page, scroll down until you see `User Management Starter: Sets up a public Profiles table which you can access with your API`. Click that, then click `RUN` to execute that query and create a new `profiles` table. When that's finished, head over to the `Table Editor` and see your new `profiles` table.
 Как только ваша база данных будет запущена, перейдите в `SQL Editor` вашего проекта и запустите Быстрый запуск "User Management Starter". На странице `SQL editor` прокрутите вниз, пока не увидите `User Management Starter: Sets up a public Profiles table which you can access with your API`. Нажмите на нее, затем нажмите `RUN`, чтобы выполнить этот запрос и создать новую таблицу `profiles`. Когда вы закончите, перейдите в `Table Editor` и просмотрите свою новую таблицу `profiles`.
 
-### 4. Get the URL and Key
+### 4. Получите URL-адрес и Ключ
 
 Go to the Project Settings (the cog icon), open the API tab, and find your API URL and `anon` key, you'll need these in the next step.
 
