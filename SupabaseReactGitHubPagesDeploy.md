@@ -155,6 +155,8 @@ create policy "Anyone can upload an avatar."
 
 ## Authors
 
+## And
+[Deploy React App Using Github Actions](https://dev.to/achukka/deploy-react-app-using-github-actions-157d)
 - [Supabase](https://supabase.com)
 - [@jlumbroso](https://www.github.com/jlumbroso)
 
