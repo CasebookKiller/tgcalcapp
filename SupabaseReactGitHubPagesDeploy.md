@@ -59,61 +59,62 @@ _Этот пример изначально [взят из Supabase developers](
 - `REACT_APP_SUPABASE_URL` для URL вашего проекта.
 - `REACT_APP_SUPABASE_ANON_KEY` для ключа `anon` вашего проекта.
 
-### 6. Turn on GitHub Pages
+### 6. Подключение GitHub Pages
 
-In the repository settings, go to the `Pages` section, and [select the `gh-pages` branch as the source for the GitHub Pages website](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch). This will be the branch where the compiled code will be deployed.
+В настройках репозитория перейдите в раздел `Pages` и [выберите ветку `gh-pages` в качестве источника для страниц GitHub website](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch). Это будет ветка, в которой будет развернут скомпилированный код.
 
-### 7. Trigger the first deployment
+### 7. Запуск первого развертывания
 
-Now that the secrets are configured, the first deployment will be triggered. This will take a few minutes, and you can check the progress in the `Actions` tab of the repository.
+Теперь, когда секреты настроены, будет запущено первое развертывание. Это займет несколько минут, и вы можете проверить ход выполнения на вкладке `Actions` репозитория.
 
-## Local development
+## Локальная разработка
 
-If you ever want to locally develop this project, you can do so by following these steps.
+Если вы хотите разрабатывать этот проект на локальном уровне, вы можете сделать это, выполнив следующие действия.
 
-### 1. Clone the repository
+### 1. Клонирование репозитория
 
 ```bash
 git clone https://github.com/<your username>/<your repository name>
 ```
 
-### 2. Create the `.env` file
+### 2. Создание файла `.env`
 
-Inside the cloned repository, create a file `.env.local` with the following:
+Внутри клонированного репозитория, создайте файл `.env.local` со следующим содержимым:
 
 ```
 REACT_APP_SUPABASE_URL=
 REACT_APP_SUPABASE_ANON_KEY=
 ```
 
-where you complete the values with the URL and key of your project.
+в котором вы заполняете значения URL-адреса и Ключа вашего проекта.
 
-### 3. Install the dependencies of the project
+### 3. Установка зависимостей проекта
 
 This step will require that you have [some recent version of Node.js locally installed](https://nodejs.org/en/).
+Для этого шага потребуется, чтобы у вас была установлена [одна из последних версий Node.js](https://nodejs.org/en/).
 
 ```bash
 npm install
 ```
 
-### 4. Run the project
+### 4. Запуск проекта
 
 ```bash
 npm run start
 ```
 
-then open your browser to `https://localhost:3000/` and you are ready to go 🚀.
+затем перейдите по ссылке `https://localhost:3000/` и вы увидете работающее приложение.
 
-## Supabase details
+## Настройка Supabase
 
-### Postgres Row level security
+### Безопасность в Postgres
 
-This project uses very high-level Authorization using Postgres' Role Level Security.
-When you start a Postgres database on Supabase, we populate it with an `auth` schema, and some helper functions.
-When a user logs in, they are issued a JWT with the role `authenticated` and their UUID.
-We can use these details to provide fine-grained control over what each user can and cannot do.
+В этом проекте используется авторизация на очень высоком уровне с использованием безопасности на уровне ролей в Postgres.
+Когда вы запускаете базу данных Postgres в Supabase, мы заполняем ее схемой `auth` и некоторыми вспомогательными функциями.
+Когда пользователь входит в систему, ему выдается JWT с ролью `authenticated` и его UUID.
+Мы можем использовать эти данные для обеспечения детального контроля над тем, что может и чего не может делать каждый пользователь.
 
-This is a trimmed-down schema, with the policies:
+Это упрощенная схема с политиками:
 
 ```sql
 -- Create a table for Public Profiles
