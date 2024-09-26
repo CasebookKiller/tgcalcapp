@@ -54,7 +54,7 @@ _Этот пример изначально [взят из Supabase developers](
 
 На предыдущих шагах вы создали проект Supabase с базой данных и таблицу `profiles`. Вы также получили URL-адрес и ключ для вашего проекта. Теперь они будут предоставлены в качестве конфигурации для проекта.
 
-For cloud deployment: Create [encrypted secrets for your repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository), using the following names:
+Для развертывания в облаке: Создайте [зашифрованные секретные данные для вашего репозитория](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository), используя следующие имена:
 
 - `REACT_APP_SUPABASE_URL` для URL вашего проекта.
 - `REACT_APP_SUPABASE_ANON_KEY` для ключа `anon` вашего проекта.
