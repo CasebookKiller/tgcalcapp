@@ -155,9 +155,10 @@ create policy "Anyone can upload an avatar."
 
 ## Authors
 
-## And
-[Deploy React App Using Github Actions](https://dev.to/achukka/deploy-react-app-using-github-actions-157d)
 - [Supabase](https://supabase.com)
 - [@jlumbroso](https://www.github.com/jlumbroso)
 
 Supabase is open source. We'd love for you to follow along and get involved at https://github.com/supabase/supabase
+
+## And
+[Deploy React App Using Github Actions](https://dev.to/achukka/deploy-react-app-using-github-actions-157d)
