@@ -25,19 +25,20 @@ _Этот пример изначально [взят из Supabase developers](
 
 ## Создание своей собственной копии этого проекта
 
-### 1. Create your own instance of the repository
+### 1. Создание своего экземпляра репозитория
 
-The repository `jlumbroso/supabase-react-example` is a template, and you can [create your own repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) from it.
+Репозиторий `jlumbroso/supabase-react-example` - это шаблон, и вы можете [создать свой репозиторий](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) из него.
 
-Note that the initial repository will contain this project, _but because the secrets are not configured yet, the deployment will either fail outright, or result in a broken website_. This is to be expected and will be resolved in the following steps.
+Обратите внимание, что исходный репозиторий будет содержать этот проект, но поскольку секретные данные еще не настроены, развертывание либо завершится полным сбоем, либо приведет к неработоспособности веб-сайта. Этого следует ожидать, и это будет устранено на следующих этапах.
 
-### 2. Create a new Supabase project
+### 2. Создание нового проекта Supabase
 
-Sign up to Supabase - [https://app.supabase.com](https://app.supabase.com) and create a new project. Wait for your database to start.
+Зарегистрируйтесь в Supabase - [https://app.supabase.com](https://app.supabase.com) и создайте новый проект. Подождите пока база данных будет готова к использованию.
 
-### 3. Run "User Management" Quickstart
+### 3. Запустите "User Management" Quickstart (Быстрый запуск)
 
 Once your database has started, head over to your project's `SQL Editor` and run the "User Management Starter" quickstart. On the `SQL editor` page, scroll down until you see `User Management Starter: Sets up a public Profiles table which you can access with your API`. Click that, then click `RUN` to execute that query and create a new `profiles` table. When that's finished, head over to the `Table Editor` and see your new `profiles` table.
+Как только ваша база данных будет запущена, перейдите в `SQL Editor` вашего проекта и запустите Быстрый запуск "User Management Starter". На странице `SQL editor` прокрутите вниз, пока не увидите `User Management Starter: Sets up a public Profiles table which you can access with your API`. Нажмите на нее, затем нажмите `RUN`, чтобы выполнить этот запрос и создать новую таблицу `profiles`. Когда вы закончите, перейдите в `Table Editor` и просмотрите свою новую таблицу `profiles`.
 
 ### 4. Get the URL and Key
 
