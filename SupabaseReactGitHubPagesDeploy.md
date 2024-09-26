@@ -1,29 +1,29 @@
-# [Supabase React User Management Template](https://github.com/jlumbroso/supabase-react-example)
+# [Шаблон управления базой пользователей на React c Supabase](https://github.com/jlumbroso/supabase-react-example)
 
-This example will set you up for a very common situation: Users can sign up with a magic link and then update their account with public profile information, including a profile image.
+В этом примере вы сможете увидеть очень распространенную ситуацию: пользователи могут зарегистрироваться с помощью волшебной ссылки, а затем обновить свою учетную запись, добавив общедоступную информацию о профиле, включая изображение профиля.
 
-This demonstrates how to use:
+В примере демонстрируется, как использовать:
 
-- User signups using Supabase [Auth](https://supabase.com/auth).
-- User avatar images using Supabase [Storage](https://supabase.com/storage).
-- Public profiles restricted with [Policies](https://supabase.com/docs/guides/auth#policies).
-- Frontend using [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
-- Deployment using [GitHub Actions](https://docs.github.com/en/actions) + hosting using [GitHub Pages](https://pages.github.com/).
+- Регистрация пользователей с использованием Supabase [Auth](https://supabase.com/auth).
+- Загрузку аватаров пользователей с использованием Supabase [Storage](https://supabase.com/storage).
+- Общедоступные профили, ограниченные [Политиками](https://supabase.com/docs/guides/auth#policies).
+- Клиентскую часть с использованием [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
+- Развертывание с использованием [GitHub Actions](https://docs.github.com/en/actions) + хостинг с использлванием [GitHub Pages](https://pages.github.com/).
 
-_This example is originally [from the Supabase developers](https://github.com/supabase/supabase/tree/master/examples/user-management/react-user-management), and it was adapted by [**@jlumbroso**](https://github.com/jlumbroso) to be compiled through GitHub Actions and deployed to GitHub Pages, so that it could be made into a [GitHub Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)._
+_Этот пример изначально [взят из Supabase developers](https://github.com/supabase/supabase/tree/master/examples/user-management/react-user-management) и был адаптирован [**@jlumbroso**](https://github.com/jlumbroso) для компиляции с помощью GitHub Actions и развертывания на GitHub Pages, чтобы его можно было превратить в [GitHub Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)._
 
-## Technologies used
+## Используемые Технологии
 
-- Frontend:
-  - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) - a React toolchain.
-  - [Supabase.js](https://supabase.com/docs/library/getting-started) for user management and realtime data syncing.
-- Backend:
-  - [app.supabase.com](https://app.supabase.com/): hosted Postgres database with restful API for usage with Supabase.js.
-- Deployment:
-  - The code is compiled by [GitHub Actions](https://docs.github.com/en/actions) using the continuous integration in `.github/workflows`.
-  - The website is hosted on [GitHub Pages](https://pages.github.com/), in the version available in the branch `gh-pages`.
+- Клиентская часть:
+  - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) - набор инструментов React.
+  - [Supabase.js](https://supabase.com/docs/library/getting-started) для управления пользователями и синхронизации данных в режиме реального времени.
+- Серверная часть:
+  - [app.supabase.com](https://app.supabase.com/): размещенная база данных Postgres с restful API для использования с Supabase.js.
+- Развертывание:
+  - Код скомпилирован с помощью [GitHub Actions](https://docs.github.com/en/actions) с использованием непрерывной интеграции с `.github/workflows`.
+  - Веб-сайт размещен на [GitHub Pages](https://pages.github.com/) в версии, доступной в ветке `gh-pages`.
 
-## Fork your own copy of this project
+## Создание своей собственной копии этого проекта
 
 ### 1. Create your own instance of the repository
 
@@ -153,12 +153,12 @@ create policy "Anyone can upload an avatar."
   with check ( bucket_id = 'avatars' );
 ```
 
-## Authors
+## Авторы
 
 - [Supabase](https://supabase.com)
 - [@jlumbroso](https://www.github.com/jlumbroso)
 
-Supabase is open source. We'd love for you to follow along and get involved at https://github.com/supabase/supabase
+Supabase имеет открытый исходный код. Мы будем рады, если вы присоединитесь к нам и примете участие в https://github.com/supabase/supabase
 
-## And
+## И
 [Deploy React App Using Github Actions](https://dev.to/achukka/deploy-react-app-using-github-actions-157d)
