@@ -2,20 +2,20 @@
 
 \* created using `create-react-app`
 
-# Introduction
+# Введение
 
-In this tutorial, I'll show you how you can create a React app and deploy it to GitHub Pages.
+В этом руководстве я покажу вам, как можно создать приложение React и развернуть его на страницах GitHub.
 
-To create the React app, I'll be using [`create-react-app`](https://create-react-app.dev/), which is a tool people can use to create a React app from scratch. To deploy the React app, I'll be using [`gh-pages`](https://github.com/tschaub/gh-pages), which is an npm package people can use to deploy things to [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages), a free web hosting service provided by GitHub.
+Для создания приложения React я буду использовать [`create-react-app`](https://create-react-app.dev/), который является инструментом, который люди могут использовать для создания приложения React с нуля. Для развертывания приложения React я буду использовать [`gh-pages`](https://github.com/tschaub/gh-pages), который представляет собой пакет npm, который пользователи могут использовать для развертывания на [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages), бесплатном веб-хостинге, предоставляемом GitHub.
 
-If you follow along with this tutorial, you'll end up with a new React app—hosted on GitHub Pages—which you can then customize.
+Если вы будете следовать этому руководству, то в итоге получите новое приложение React, размещенное на страницах GitHub, которое затем сможете настроить.
 
-## Translations
+## Переводы
 
-This tutorial has been translated from its original English into the following languages:
-- [Traditional Chinese](https://github.com/gitname/react-gh-pages/issues/167#issuecomment-1925551338) (credit: [@creaper9487](https://github.com/creaper9487))
+Это учебное пособие было переведено с английского оригинала на следующие языки:
+- [Традиционный китайский](https://github.com/gitname/react-gh-pages/issues/167#issuecomment-1925551338) (автор: [@creaper9487](https://github.com/creaper9487))
 
-# Tutorial
+# Руководство
 
 ## Prerequisites
 
