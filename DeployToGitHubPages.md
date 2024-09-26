@@ -1,6 +1,6 @@
 # Развёртывание Приложения React* на GitHub Pages
 
-\* created using `create-react-app`
+\* создание с использованием `create-react-app`
 
 # Введение
 
