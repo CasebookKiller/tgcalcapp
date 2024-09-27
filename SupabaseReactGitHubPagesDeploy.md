@@ -164,3 +164,5 @@ Supabase имеет открытый исходный код. Мы будем р
 
 ## И
 [Deploy React App Using Github Actions](https://dev.to/achukka/deploy-react-app-using-github-actions-157d)
+
+`ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f "<your-deploy-branch>" -N ""`
