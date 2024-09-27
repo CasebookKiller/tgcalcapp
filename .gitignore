@@ -25,3 +25,7 @@ generate-react-cli.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.README-FOR-ME.md
+gh-pages
+gh-pages.pub
