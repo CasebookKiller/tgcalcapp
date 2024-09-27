@@ -17,9 +17,9 @@
 
 # Руководство
 
-## Prerequisites
+## Предварительные условия
 
-1. [Node and npm](https://nodejs.org/en/download/) are installed. Here are the versions I'll be using while making this tutorial:
+1. Установлены [Node и npm](https://nodejs.org/en/download/). Вот версии, которые я буду использовать при создании этого руководства:
 
     ```shell
     $ node --version
@@ -28,7 +28,7 @@
     $ npm --version
     8.1.2
     ```
-    > Installing npm adds two commands to the system—`npm` and `npx`—both of which I'll be using while making this tutorial.
+  > Установка npm добавляет в систему две команды — `npm` и `npx` — обе из которых я буду использовать при    создании этого руководства.
 
 2. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
 
