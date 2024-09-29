@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tgcalcapp/static/css/main.2e798050.css",
-    "main.js": "/tgcalcapp/static/js/main.da4756bb.js",
+    "main.js": "/tgcalcapp/static/js/main.9e185911.js",
     "static/media/logo.svg": "/tgcalcapp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tgcalcapp/index.html",
     "main.2e798050.css.map": "/tgcalcapp/static/css/main.2e798050.css.map",
-    "main.da4756bb.js.map": "/tgcalcapp/static/js/main.da4756bb.js.map"
+    "main.9e185911.js.map": "/tgcalcapp/static/js/main.9e185911.js.map"
   },
   "entrypoints": [
     "static/css/main.2e798050.css",
-    "static/js/main.da4756bb.js"
+    "static/js/main.9e185911.js"
   ]
 }
