@@ -30,18 +30,18 @@
     ```
   > Установка npm добавляет в систему две команды — `npm` и `npx` — обе из которых я буду использовать при    создании этого руководства.
 
-2. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed. Here's the version I'll be using while making this tutorial:
+2. [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) установлен. Вот версия, которую я буду использовать при создании этого руководства:
 
     ```shell
     $ git --version
     git version 2.29.1.windows.1
     ```
 
-3. A [GitHub](https://github.com/signup) account. :octocat:
+3. Учетная запись на [GitHub](https://github.com/signup). :octocat:
 
-## Procedure
+## Процедура
 
-### 1. Create an **empty** repository on GitHub
+### 1. Создайте **пустой** репозиторий на GitHub
 
 1. Sign into your GitHub account.
 2. Visit the [Create a new repository](https://github.com/new) form.
