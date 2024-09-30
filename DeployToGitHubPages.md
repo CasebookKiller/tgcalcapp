@@ -69,7 +69,7 @@
 
 На данный момент ваша учетная запись на GitHub содержит пустой репозиторий с указанным вами именем и типом конфиденциальности.
 
-### 2. Create a React app
+### 2. Создайте приложение React
 
 1. Создайте приложение React с именем "my-app".:
 
@@ -114,17 +114,17 @@
 
 ### 4. Добавьте свойство `домашняя страница` в файл `package.json`.
 
-1. Open the `package.json` file in a text editor.
+1. Откройте файл `package.json` в текстовом редакторе.
    
     ```shell
     $ vi package.json
     ```
 
-    > In this tutorial, the text editor I'll be using is [vi](https://www.vim.org/). You can use any text editor you want; for example, [Visual Studio Code](https://code.visualstudio.com/).
+    > В этом руководстве я буду использовать текстовый редактор [vi](https://www.vim.org/). Вы можете использовать любой текстовый редактор, который вам нравится, например [Visual Studio Code](https://code.visualstudio.com/).
 
-2. Add a `homepage` property in this format\*: `https://{username}.github.io/{repo-name}`
+2. Добавьте свойство `домашняя страница` в следующем формате\*: `https://{имя пользователя}.github.io/{название репозитория}`
 
-    > \* For a [project site](https://pages.github.com/#project-site), that's the format. For a [user site](https://pages.github.com/#user-site), the format is: `https://{username}.github.io`. You can read more about the `homepage` property in the ["GitHub Pages" section](https://create-react-app.dev/docs/deployment/#github-pages) of the `create-react-app` documentation.
+    > \* Для [сайта проекта](https://pages.github.com/#project-site) это формат. Для [сайта пользователя](https://pages.github.com/#user-site) это формат: `https://{имя пользователя}.github.io `. Вы можете прочитать больше о свойстве `домашняя страница` в разделе ["Страницы GitHub"](https://create-react-app.dev/docs/deployment/#github-pages) документации `create-react-app`.
 
     ```diff
     {
