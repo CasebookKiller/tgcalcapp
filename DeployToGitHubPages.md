@@ -104,15 +104,15 @@
 
 ### 3. Установите npm-пакет `gh-pages`
 
-1. Install the [`gh-pages`](https://github.com/tschaub/gh-pages) npm package and designate it as a [development dependency](https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file):
+1. Установите пакет [`gh-pages`](https://github.com/tschaub/gh-pages) npm и назначьте его [для разработки dependency](https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file):
  
     ```shell
     $ npm install gh-pages --save-dev
     ```
 
-At this point, the `gh-pages` npm package is installed on your computer and the React app's dependence upon it is documented in the React app's `package.json` file.
+На данный момент пакет npm `gh-pages` установлен на вашем компьютере, и зависимость приложения React от него задокументирована в файле `package.json` приложения React.
 
-### 4. Add a `homepage` property to the `package.json` file
+### 4. Добавьте свойство `домашняя страница` в файл `package.json`.
 
 1. Open the `package.json` file in a text editor.
    
