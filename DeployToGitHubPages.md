@@ -71,10 +71,11 @@
 
 ### 2. Create a React app
 
-1. Create a React app named `my-app`:
+1. Создайте приложение React с именем "my-app".:
 
     > In case you want to use a different name from `my-app` (e.g. `web-ui`), you can accomplish that by replacing all occurrences of `my-app` in this tutorial, with that other name (i.e. `my-app` --> `web-ui`).
-  
+    > Если вы хотите использовать имя, отличное от `my-app` (например, `web-ui`), вы можете сделать это, заменив все упоминания `my-app` в этом руководстве на другое имя (например, `my-app` --> `web-ui`).  
+
     ```shell
     $ npx create-react-app my-app
     ```
@@ -94,7 +95,7 @@
     >
     > Since I have not set that variable in my Git installation, the branch in my repository will be named `master`. In case the branch in your repository has a different name (which you can check by running  `$ git branch`), such as `main`; you can **replace** all occurrences of `master` throughout the remainder of this tutorial, with that other name (e.g. `master` → `main`).
 
-2. Enter the newly-created folder:
+3. Enter the newly-created folder:
   
     ```shell
     $ cd my-app
