@@ -73,14 +73,13 @@
 
 1. Создайте приложение React с именем "my-app".:
 
-    > In case you want to use a different name from `my-app` (e.g. `web-ui`), you can accomplish that by replacing all occurrences of `my-app` in this tutorial, with that other name (i.e. `my-app` --> `web-ui`).
     > Если вы хотите использовать имя, отличное от `my-app` (например, `web-ui`), вы можете сделать это, заменив все упоминания `my-app` в этом руководстве на другое имя (например, `my-app` --> `web-ui`).  
 
     ```shell
     $ npx create-react-app my-app
     ```
 
-    > That command will create a React app written in JavaScript. To create one written in [TypeScript](https://create-react-app.dev/docs/adding-typescript/#installation), you can issue this command instead:
+    > Эта команда создаст приложение React, написанное на JavaScript. Чтобы создать приложение, написанное на [TypeScript](https://create-react-app.dev/docs/adding-typescript/#installation), вы можете выполнить эту команду вместо:
     > ```shell
     > $ npx create-react-app my-app --template typescript
     > ```
