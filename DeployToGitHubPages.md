@@ -84,25 +84,26 @@
     > $ npx create-react-app my-app --template typescript
     > ```
 
-    That command will create a new folder named `my-app`, which will contain the source code of a React app.
+    Эта команда создаст новую папку с именем `my-app`, которая будет содержать исходный код приложения React.
 
-    > In addition to containing the source code of the React app, that folder is also a Git repository. That characteristic of the folder will come into play in Step 6.
+    > В дополнение к тому, что эта папка содержит исходный код приложения React, она также является репозиторием Git. Эта характеристика папки будет использована на шаге 6.
 
-    > #### Branch names: `master` vs. `main`
+    > #### Названия ветвей: `master` или `main`
     > 
-    > The Git repository will have one branch, which will be named either (a) `master`, the default for a fresh Git installation; or (b) the value of the Git configuration variable, `init.defaultBranch`, if your computer is running Git version 2.28 or later _and_ you have [set that variable](https://github.blog/2020-07-27-highlights-from-git-2-28/#introducing-init-defaultbranch) in your Git configuration (e.g. via `$ git config --global init.defaultBranch main`).
+    > В репозитории Git будет одна ветвь, которая будет называться либо (а) `master`, по умолчанию для новой установки Git; либо (б) значением переменной конфигурации Git `init.defaultBranch`, если на вашем компьютере запущен Git версии 2.28 или более поздней, и у вас есть [установите эту переменную](https://github.blog/2020-07-27-highlights-from-git-2-28/#introducing-init-defaultbranch) в вашей конфигурации Git (например, через `$ git config --global init.defaultBranch main`).
     >
     > Since I have not set that variable in my Git installation, the branch in my repository will be named `master`. In case the branch in your repository has a different name (which you can check by running  `$ git branch`), such as `main`; you can **replace** all occurrences of `master` throughout the remainder of this tutorial, with that other name (e.g. `master` → `main`).
+    > Поскольку я не устанавливал эту переменную при установке Git, ветка в моем репозитории будет называться `master`. В случае, если ветвь в вашем репозитории имеет другое имя (которое вы можете проверить, запустив `$ git branch`), например `main`, вы можете **заменить** все упоминания `master` в оставшейся части этого руководства на другое имя (например, `master` → `главный`).
 
-3. Enter the newly-created folder:
+3. Войдите во вновь созданную папку:
   
     ```shell
     $ cd my-app
     ```
 
-At this point, there is a React app on your computer and you are in the folder that contains its source code. All of the remaining commands shown in this tutorial can be run from that folder.
+На данный момент на вашем компьютере установлено приложение React, и вы находитесь в папке, содержащей его исходный код. Все остальные команды, показанные в этом руководстве, можно запустить из этой папки.
 
-### 3. Install the `gh-pages` npm package
+### 3. Установите npm-пакет `gh-pages`
 
 1. Install the [`gh-pages`](https://github.com/tschaub/gh-pages) npm package and designate it as a [development dependency](https://docs.npmjs.com/specifying-dependencies-and-devdependencies-in-a-package-json-file):
  
