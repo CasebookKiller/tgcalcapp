@@ -43,10 +43,10 @@
 
 ### 1. Создайте **пустой** репозиторий на GitHub
 
-1. Sign into your GitHub account.
-2. Visit the [Create a new repository](https://github.com/new) form.
-3. Fill in the form as follows:
-    - **Repository name:** You can enter any name you want\*.
+1. Войдите в свою учетную запись на GitHub.
+2. Перейдите к форме [Создать новый репозиторий](https://github.com/new).
+3. Заполните форму следующим образом:
+    - **Название репозитория:** Вы можете ввести любое имя, которое хотите\*.
 
         > \* For a [project site](https://pages.github.com/#project-site), you can enter any name you want. For a [user site](https://pages.github.com/#user-site), GitHub [requires](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites) that the repository's name have the following format: `{username}.github.io` (e.g. `gitname.github.io`)
         
