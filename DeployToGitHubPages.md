@@ -92,7 +92,6 @@
     > 
     > В репозитории Git будет одна ветвь, которая будет называться либо (а) `master`, по умолчанию для новой установки Git; либо (б) значением переменной конфигурации Git `init.defaultBranch`, если на вашем компьютере запущен Git версии 2.28 или более поздней, и у вас есть [установите эту переменную](https://github.blog/2020-07-27-highlights-from-git-2-28/#introducing-init-defaultbranch) в вашей конфигурации Git (например, через `$ git config --global init.defaultBranch main`).
     >
-    > Since I have not set that variable in my Git installation, the branch in my repository will be named `master`. In case the branch in your repository has a different name (which you can check by running  `$ git branch`), such as `main`; you can **replace** all occurrences of `master` throughout the remainder of this tutorial, with that other name (e.g. `master` → `main`).
     > Поскольку я не устанавливал эту переменную при установке Git, ветка в моем репозитории будет называться `master`. В случае, если ветвь в вашем репозитории имеет другое имя (которое вы можете проверить, запустив `$ git branch`), например `main`, вы можете **заменить** все упоминания `master` в оставшейся части этого руководства на другое имя (например, `master` → `главный`).
 
 3. Войдите во вновь созданную папку:
