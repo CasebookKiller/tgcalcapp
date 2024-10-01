@@ -8,7 +8,7 @@
 - Загрузку аватаров пользователей с использованием Supabase [Storage](https://supabase.com/storage).
 - Общедоступные профили, ограниченные [Политиками](https://supabase.com/docs/guides/auth#policies).
 - Клиентскую часть с использованием [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
-- Развертывание с использованием [GitHub Actions](https://docs.github.com/en/actions) + хостинг с использлванием [GitHub Pages](https://pages.github.com/).
+- Развертывание с использованием [GitHub Actions](https://docs.github.com/en/actions) + хостинг с использованием [GitHub Pages](https://pages.github.com/).
 
 _Этот пример изначально [взят из Supabase developers](https://github.com/supabase/supabase/tree/master/examples/user-management/react-user-management) и был адаптирован [**@jlumbroso**](https://github.com/jlumbroso) для компиляции с помощью GitHub Actions и развертывания на GitHub Pages, чтобы его можно было превратить в [GitHub Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository)._
 
