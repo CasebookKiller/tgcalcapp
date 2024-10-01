@@ -155,27 +155,27 @@
 
 На данный момент файл `package.json` приложения React содержит сценарии развертывания.
 
-### 6. Add a "remote" that points to the GitHub repository
+### 6. Добавьте "удаленный", который указывает на репозиторий GitHub
 
-1. Add a "[remote](https://git-scm.com/docs/git-remote)" to the local Git repository.
+1. Добавьте "[удаленный](https://git-scm.com/docs/git-remote)" в локальный репозиторий Git.
 
-    You can do that by issuing a command in this format: 
+    Вы можете сделать это, выполнив команду в следующем формате:
     
     ```shell
     $ git remote add origin https://github.com/{username}/{repo-name}.git
     ```
     
-    To customize that command for your situation, replace `{username}` with your GitHub username and replace `{repo-name}` with the name of the GitHub repository you created in Step 1.
+    Чтобы настроить эту команду для вашей ситуации, замените `{username}` на свое имя пользователя на GitHub и замените `{repo-name}`на имя репозитория GitHub, который вы создали на шаге 1.
 
-    In my case, I'll run:
+    В моем случае, я побегу:
 
     ```shell
     $ git remote add origin https://github.com/gitname/react-gh-pages.git
     ```
 
-    > That command tells Git where I want it to push things whenever I—or the `gh-pages` npm package acting on my behalf—issue the `$ git push` command from within this local Git repository.
+    > Эта команда сообщает Git, куда я хочу, чтобы она отправляла данные всякий раз, когда я — или пакет npm `gh-pages`, действующий от моего имени, — отправляю команду `$ git push` из этого локального репозитория Git.
 
-At this point, the local repository has a "remote" whose URL points to the GitHub repository you created in Step 1.
+На данный момент в локальном репозитории есть "remote", URL-адрес которого указывает на репозиторий GitHub, созданный вами на шаге 1.
 
 ### 7. Push the React app to the GitHub repository
 
