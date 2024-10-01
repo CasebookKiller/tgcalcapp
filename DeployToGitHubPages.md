@@ -133,7 +133,7 @@
     + "homepage": "https://gitname.github.io/react-gh-pages",
       "private": true,
     ```
-At this point, the React app's `package.json` file includes a property named `homepage`.
+На данный момент файл `package.json` приложения React содержит свойство с именем `homepage`.
 
 ### 5. Add deployment scripts to the `package.json` file
 
