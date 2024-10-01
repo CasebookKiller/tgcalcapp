@@ -90,7 +90,6 @@ REACT_APP_SUPABASE_ANON_KEY=
 
 ### 3. Установка зависимостей проекта
 
-This step will require that you have [some recent version of Node.js locally installed](https://nodejs.org/en/).
 Для этого шага потребуется, чтобы у вас была установлена [одна из последних версий Node.js](https://nodejs.org/en/).
 
 ```bash
