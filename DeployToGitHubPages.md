@@ -135,15 +135,15 @@
     ```
 На данный момент файл `package.json` приложения React содержит свойство с именем `homepage`.
 
-### 5. Add deployment scripts to the `package.json` file
+### 5. Добавьте сценарии развертывания в файл `package.json`
 
-1. Open the `package.json` file in a text editor (if it isn't already open in one).
+1. Откройте файл `package.json` в текстовом редакторе (если он еще не открыт в нем).
    
     ```shell
     $ vi package.json
     ```
 
-2. Add a `predeploy` property and a `deploy` property to the `scripts` object:
+2. Добавьте свойства `predeploy` и `deploy` к объекту `scripts`.:
 
     ```diff
     "scripts": {
@@ -153,7 +153,7 @@
         "build": "react-scripts build",
     ```
 
-At this point, the  React app's `package.json` file includes deployment scripts.
+На данный момент файл `package.json` приложения React содержит сценарии развертывания.
 
 ### 6. Add a "remote" that points to the GitHub repository
 
