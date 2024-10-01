@@ -196,22 +196,22 @@
 
 На данный момент в репозитории GitHub есть ветка с именем `gh-pages`, которая содержит файлы, составляющие распространяемую версию приложения React. Однако мы еще не настроили GitHub Pages для _обслуживания_ этих файлов.
 
-### 8. Configure GitHub Pages
+### 8. Настройка страниц на GitHub
 
-1. Navigate to the **GitHub Pages** settings page
-   1. In your web browser, navigate to the GitHub repository
-   1. Above the code browser, click on the tab labeled "Settings"
-   1. In the sidebar, in the "Code and automation" section, click on "Pages"
-1. Configure the "Build and deployment" settings like this: 
+1. Перейдите на страницу настроек **GitHub Pages**e
+   1. В вашем веб-браузере перейдите в репозиторий GitHub
+   1. Над браузером кода перейдите на вкладку с надписью "Settings".
+   1. На боковой панели, в разделе "Код и автоматизация", нажмите на "Страницы".
+1. Настройте параметры "Build and deployment" следующим образом:
    1. **Source**: Deploy from a branch
    2. **Branch**: 
       - Branch: `gh-pages`
       - Folder: `/ (root)`
-1. Click on the "Save" button
+1. Нажмите на кнопку "Save".
 
-**That's it!** The React app has been deployed to GitHub Pages! :rocket:
+**Вот и все!** Приложение React было развернуто на страницах GitHub! :rocket:
 
-At this point, the React app is accessible to anyone who visits the `homepage` URL you specified in Step 4. For example, the React app I deployed is accessible at https://gitname.github.io/react-gh-pages.
+На данный момент приложение React доступно любому, кто посетит URL-адрес `homepage`, указанный вами на шаге 4. Например, приложение React, которое я развернул, доступно по адресу https://gitname.github.io/react-gh-pages.
 
 ### 9. (Optional) Store the React app's _source code_ on GitHub
 
